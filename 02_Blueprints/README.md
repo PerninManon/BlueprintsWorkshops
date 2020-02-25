@@ -28,5 +28,7 @@ Nous allons définir un premier blueprint contenant un artifact de type "Policy 
 Nous allons désormais créer le même blueprint via PowerShell.
 
 1. Commencez par installer le module AZ.Blueprint qui est en Preview: `Install-Module -Name Az.Blueprint -AllowPrerelease -Force`
-2. Créez un fichier json pour définir votre blueprint.
+2. Créez un fichier json pour définir votre blueprint (example [BlueprintFiles/0_blueprint.json](BlueprintFiles/0_blueprint.json))
 3. Créez le blueprint avec la commande suivante: `New-AzBlueprint -Name "blueprint_name" -BlueprintFile "Chemin_vers_le_fichier\blueprint.json" -SubscriptionId "ID_de_votre_subscription"`
+4. Récupérez l'ID de la policy à l'aide de la commande: `Get-AzPolicyDefinition | where {$_.Properties -match "Allowed resource types"}`
+5. Ajoutez un artifact de type "Policy Assignment" à l'aide d'une commande PowerShell
