@@ -12,9 +12,6 @@ Dans ce workshop vous verrez comment utiliser des policies via le portail Azure 
 - [PowerShell - Créer une custom policy](#créer-une-custom-policy)
 - [PowerShell - Assigner une policy](#assigner-une-policy)
 
-## Prérequis
-
-
 
 ## Portail Azure
 
