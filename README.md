@@ -8,8 +8,8 @@ Pour réaliser ce workshop, vous aurez besoin:
 
 ## Workshops
 
-- [Policies](/BlueprintsWorkshops/01_Policies/README.md)
-- [Blueprints](/BlueprintsWorkshops/02_Blueprints/README.md)
+- [Policies](01_Policies/README.md)
+- [Blueprints](02_Blueprints/README.md)
 
 ## Bonus
 
