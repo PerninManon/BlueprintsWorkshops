@@ -14,8 +14,7 @@ Dans ce workshop vous verrez comment utiliser des policies via le portail Azure 
 
 ## Prérequis
 
-Pour réaliser ce workshop, vous aurez besoin:
-- d'une souscription Azure sur laquelle vous êtes Contributor au minimum, Owner idéalement
+
 
 ## Portail Azure
 

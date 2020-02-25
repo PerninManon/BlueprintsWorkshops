@@ -3,10 +3,8 @@
 Dans ce workshop vous verrez comment utiliser définir et appliquer des blueprints via le portail Azure et via PowerShell. 
 
 - [Prérequis](#prérequis)
-- [Portail Azure - Built-In Policies](#built-in-policies)
-- [Portail Azure - Custom Policy](#custom-policy)
-- [PowerShell - Créer une custom policy](#créer-une-custom-policy)
-- [PowerShell - Assigner une policy](#assigner-une-policy)
+- [Portail Azure](#portail-azure)
+- [Powershell](#powershell)
 
 ## Prérequis
 
@@ -26,3 +24,9 @@ Nous allons définir un premier blueprint contenant un artifact de type "Policy 
     - Créer une ressource non autorisée
 
 ## PowerShell
+
+Nous allons désormais créer le même blueprint via PowerShell.
+
+1. Commencez par installer le module AZ.Blueprint qui est en Preview: `Install-Module -Name Az.Blueprint -AllowPrerelease -Force`
+2. Créez un fichier json pour définir votre blueprint.
+3. Créez le blueprint avec la commande suivante: `New-AzBlueprint -Name "blueprint_name" -BlueprintFile "Chemin_vers_le_fichier\blueprint.json" -SubscriptionId "ID_de_votre_subscription"`
