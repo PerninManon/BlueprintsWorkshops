@@ -1,0 +1,14 @@
+{
+    "properties": {
+      "description": "Bootcamp blueprint.",
+      "targetScope": "subscription",
+      "parameters": {
+        "allowedresourcetypes": {
+          "type": "array",
+          "metadata": {
+            "description": "List of allowed resource types"
+          }
+        }
+      }
+    }
+  }
