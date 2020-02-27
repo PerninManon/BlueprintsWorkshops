@@ -1,0 +1,21 @@
+{
+        "if": {
+          "allOf": [
+            {
+                "field":"type",
+                "equals": "Microsoft.Storage/storageaccounts"
+            },
+            {
+                "field":"Kind",
+                "equals":"StorageV2"
+            },
+            {
+                "field":"Microsoft.Storage/storageAccounts/isHnsEnabled",
+                "equals":"true"
+            }
+        ] 
+        },
+        "then": {
+          "effect": "deny"
+        }
+      }

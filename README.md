@@ -11,6 +11,4 @@ Pour réaliser ce workshop, vous aurez besoin:
 - [Policies](01_Policies/README.md)
 - [Blueprints](02_Blueprints/README.md)
 
-## Bonus
-
-Création d'un artifact ARM template dans un blueprint, assigner le blueprint
+## [Bonus](Bonus.md)
