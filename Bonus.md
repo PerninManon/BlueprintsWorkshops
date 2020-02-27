@@ -1,6 +1,6 @@
 # Bonus
 
-Dans cette partie du Lab, vous serez amené à ajouter un artifact à votre Blueprint le portail. Cet exercice vous permettra d'ajouter via Blueprints un artifact "ARM" qui va créer un ResourceGroup Azure, puis de créer à dedans un ressource Application Insights.
+Dans cette partie du Lab, vous serez amené à ajouter un artifact à votre Blueprint via le portail. Cet exercice vous permettra d'ajouter un artifact Blueprint "ARM" qui va créer un ResourceGroup Azure, puis de créer à dedans un ressource Application Insights.
 
 ## Prérequis
 
@@ -9,11 +9,11 @@ Pour réaliser cet exercice, vous aurez besoin:
 
 ## Portail Azure
 
-### Préparation du Blueprints
+### Préparation du Blueprint
 
 #### Ajout de l'artifact de déploiement
 
-Pour déployer les ressources de cet exercice, vous devez tout d'abord ajouter un artifact à votre Blueprints si déjà existant (ou en recréer un nouveau, lui ajouter un artifact, le publier puis l'assigner à votre souscription). Dans cet exemple, nous créons tout le Blueprints from scratch. 
+Pour déployer les ressources de cet exercice, vous devez tout d'abord ajouter un artifact à votre Blueprint si déjà existant (ou en recréer un nouveau, lui ajouter un artifact, le publier puis l'assigner à votre souscription). Dans cet exemple, nous créerons tout le Blueprints from scratch. 
 
 1. Dans la barre de recherche au niveau de votre portail Azure, tapez "Blueprints" et sélectionner le dans les résultats.
 2. Séléctionnez "Blueprints definitions"
@@ -51,6 +51,7 @@ Pour déployer les ressources de cet exercice, vous devez tout d'abord ajouter u
 24. La création de l'Assignement prendra quelques secondes.
 25. Revenez à l'ecran principal de votre portail Azure, et vérifier que le resourceGroup "BootCampAppInsight-RG" a bien été créé. 
 26. Accéder à votre resource group et vérifier que la ressource "Application insight" portant le nom "BootCampAppIns" a bien été ajoutée.
+
 
 
 ```json
